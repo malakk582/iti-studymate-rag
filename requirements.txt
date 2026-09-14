@@ -1,0 +1,8 @@
+# Full environment for developing/running the whole project locally
+# (notebook + backend + frontend). For deploying a single component,
+# use backend/requirements.txt or frontend/requirements.txt instead.
+-r backend/requirements.txt
+-r frontend/requirements.txt
+jupyter==1.1.1
+pandas==2.2.3
+numpy==2.2.1
